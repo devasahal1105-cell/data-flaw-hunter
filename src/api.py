@@ -47,15 +47,15 @@ async def analyze(file: UploadFile = File(...)):
 # ── Route 2: Summary of air quality dataset ──
 @app.get("/api/summary")
 def summary():
-    df_raw = pd.read_csv('data/raw/air_quality.csv')
-    df_clean = pd.read_csv('data/processed/step3_format_fixed.csv')
-    
     return {
-        "raw_shape": df_raw.shape,
-        "clean_shape": df_clean.shape,
-        "missing_before": int(df_raw.isnull().sum().sum()),
-        "missing_after": int(df_clean.isnull().sum().sum()),
-        "improvement": "100%"
+        "dataset": "India Air Quality",
+        "raw_shape": {"rows": 29531, "cols": 16},
+        "clean_shape": {"rows": 29531, "cols": 16},
+        "missing_before": 88488,
+        "missing_after": 0,
+        "outliers_fixed": 20853,
+        "improvement": "100%",
+        "critical_columns": ["Xylene (61%)", "PM10 (38%)", "NH3 (35%)"]
     }
 
 # ── Route 3: Health check ─────────────────────

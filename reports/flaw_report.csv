@@ -1,0 +1,28 @@
+flaw_type,column,count,severity,severity_score
+Missing Value,Xylene,18109,CRITICAL,61.32
+Missing Value,PM10,11140,CRITICAL,37.72
+Missing Value,NH3,10328,CRITICAL,34.97
+Missing Value,Toluene,8041,HIGH,27.23
+Missing Value,Benzene,5623,MEDIUM,19.04
+Missing Value,AQI,4681,MEDIUM,15.85
+Missing Value,AQI_Bucket,4681,MEDIUM,15.85
+Missing Value,PM2.5,4598,MEDIUM,15.57
+Missing Value,NOx,4185,MEDIUM,14.17
+Missing Value,O3,4022,MEDIUM,13.62
+Missing Value,SO2,3854,MEDIUM,13.05
+Missing Value,NO2,3585,MEDIUM,12.14
+Missing Value,NO,3582,MEDIUM,12.13
+Outlier,SO2,2578,MEDIUM,8.73
+Outlier,CO,2475,MEDIUM,8.38
+Outlier,NO,2459,MEDIUM,8.33
+Outlier,Toluene,2427,MEDIUM,8.22
+Missing Value,CO,2059,LOW,6.97
+Outlier,PM2.5,1982,MEDIUM,6.71
+Outlier,NOx,1868,MEDIUM,6.33
+Outlier,Benzene,1668,MEDIUM,5.65
+Outlier,NO2,1188,LOW,4.02
+Outlier,Xylene,1119,LOW,3.79
+Outlier,PM10,1057,LOW,3.58
+Outlier,NH3,1015,LOW,3.44
+Outlier,O3,713,LOW,2.41
+Format,Date,1,LOW,1.0
